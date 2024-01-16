@@ -1,0 +1,35 @@
+@media only screen and (max-width: 844px)
+{
+
+    body{
+        font-size: 20px;
+    }
+
+    .container
+    {
+        width: 390px;
+    }
+
+    .sub-container
+    {
+        padding: 20px;
+    }
+
+    .move-btn
+    {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .move-icon
+    {
+        object-fit: cover;
+        height: 60px;
+    }
+    
+    .css-score
+    {
+        width: 200px;
+    }
+
+}

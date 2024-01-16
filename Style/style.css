@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(25, 25, 25);
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-weight: bolder;
+    text-align: center;
+}
+button{
+    cursor: pointer;
+}
+
+.container
+{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.sub-container
+{
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    margin: 0;
+}
+
+.move-btn
+{
+    background-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: white;
+    width: 120px;
+    height: 120px;
+    vertical-align: middle;
+}
+
+
+.move-icon
+{
+    object-fit: cover;
+    height: 80px;
+}
+
+
+
+.btn-box
+{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.css-score
+{
+    width: 250px;
+    background-color: rgb(57, 57, 57);
+    text-align: center;
+    margin: 20px 30px;
+    padding: 10px 16px;
+    border-radius: 10px;
+}
+
+.result-box
+{
+    height: 100px;
+    text-align: center;
+    margin: 32px;
+}
+
+.css-result
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.score-box{
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-box
+{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.reset-btn{
+    border: none;
+    font-size: 16px;
+    padding: 16px 30px;
+    border-radius: 10px;
+}
